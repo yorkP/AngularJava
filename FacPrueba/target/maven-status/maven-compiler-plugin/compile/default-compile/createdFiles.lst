@@ -1,0 +1,15 @@
+com\co\factura\Dao\IFacturaDao.class
+com\co\factura\Dao\DetalleFacturaDao.class
+com\co\factura\web\JAXRSActivator.class
+com\co\factura\Dao\ProductoDao.class
+com\co\factura\Dao\ClienteDao.class
+com\co\factura\Dao\IProductoDao.class
+com\co\factura\modelo\DetalleFactura.class
+com\co\factura\web\Corsfilter.class
+com\co\factura\modelo\Factura.class
+com\co\factura\modelo\Producto.class
+com\co\factura\ServiciosRS\ClienteRS.class
+com\co\factura\Dao\IClienteDao.class
+com\co\factura\Dao\IDetalleFacturaDao.class
+com\co\factura\modelo\Cliente.class
+com\co\factura\Dao\FacturaDao.class

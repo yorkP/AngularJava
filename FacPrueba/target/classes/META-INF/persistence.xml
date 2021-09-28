@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="factura_PU" transaction-type="JTA">
+    <jta-data-source>jdbc/facturaDb</jta-data-source>
+    <!--
+    <class>com.co.factura.modelo.Cliente</class>
+    <class>com.co.factura.modelo.Factura</class>
+    <class>com.co.factura.modelo.DetalleFactura</class>
+    <class>com.co.factura.modelo.Producto</class>
+    -->
+  </persistence-unit>
+</persistence>
